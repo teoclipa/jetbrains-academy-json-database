@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  highlight_level: NONE
+  text: |-
+    class CountDownCounter {
+
+        int count;
+
+        public CountDownCounter(int initial) {
+            this.count = initial;
+        }
+
+        public void decrement() {
+            count--;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2648#comment
+status: Solved
+record: -1
+submission_language: java17
